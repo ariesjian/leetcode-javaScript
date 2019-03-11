@@ -1,3 +1,6 @@
+
+// 配置balel  使用es6
 {
   "presets": ["@babel/preset-env"]
 }
+
