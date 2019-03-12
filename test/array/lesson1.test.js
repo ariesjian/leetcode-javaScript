@@ -15,4 +15,4 @@ test('telComb:234', () => {
     'ceg', 'ceh', 'cei',
     'cfg', 'cfh', 'cfi'
   ])
-})
+});
