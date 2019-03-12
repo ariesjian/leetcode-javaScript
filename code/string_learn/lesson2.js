@@ -14,6 +14,10 @@
 * 字符串用法  https://www.cnblogs.com/YYvam1288/p/6973252.html
 * String.repeat(count)：字符串复制指定次数
 * String.match(RegExp)：正则匹配
+* String.slice(start,end):截取是字符串
+* arr.push
+*
+* 正则表达式  匹配  比较  动态正则表达式校验的声明
 * */
 
 export const countString = (str) => {
