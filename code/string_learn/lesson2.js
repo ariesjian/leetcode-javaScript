@@ -1,4 +1,5 @@
 /*
+   题号696
 * 算法的本质就是通过现象找到规律 并且总结实现出来
 *
 * 如何找到规律 ： 就是输入和输出之间的规律
@@ -25,12 +26,13 @@ export const countString = (str) => {
     let r = [];
     // 给定任意子输入都返回第一个符合条件的子串
     const match = (str) => {
-        const j = str.match(/^(0+|1+)/)[0];  // 从字符串的起步找到连续的0或者1  比如00 或者 11 或者是 1 或者0
+        // 从字符串的起步找到连续的0或者1  比如00 或者 11 或者是 1 或者0
+        const j = str.match(/^(0+|1+)/)[0];
         //  j[0] ^ 1 是0和1 相互取反 ^是取反的意思  repeat(j.length)找到j.length倍长度的 并且返回
         let o = (j[0] ^ 1).toString().repeat(j.length);
         let reg = new RegExp(`^(${j}${o})`); // 声明正则对象 这样可以生成一个动态的正则表达式验证
         if (reg.test(str)) {
-            return RegExp.$1  // 返回正则的结果
+            return RegExp.$1;// 返回正则的结果
         } else {
             return ''
         }
@@ -42,35 +44,5 @@ export const countString = (str) => {
             r.push(sub)
         }
     }
-
     return r
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

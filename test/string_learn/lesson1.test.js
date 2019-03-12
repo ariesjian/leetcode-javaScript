@@ -1,10 +1,12 @@
-import {revertByWorld,revertByWorldThree,revertByWorldTwo} from '../../code/string_learn/lesson1';
-test('revertByWorld:你好啊 世界',()=>{
+import { revertByWorld, revertByWorldThree, revertByWorldTwo } from '../../code/string_learn/lesson1';
+
+test('revertByWorld:你好啊 世界', () => {
     expect(revertByWorld('你好啊 世界')).toBe('啊好你 界世')
 });
-test('revertByWorldTwo:你好啊 世界',()=>{
+test('revertByWorldTwo:你好啊 世界', () => {
     expect(revertByWorldTwo('你好啊 世界')).toBe('啊好你 界世')
 });
-test('revertByWorldThree:hello world',()=>{
+test('revertByWorldThree:hello world', () => {
     expect(revertByWorldThree('hello world')).toBe('olleh dlrow')
 });
+//  toBe是输出  toEqual是相等于

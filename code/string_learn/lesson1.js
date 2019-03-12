@@ -1,4 +1,5 @@
 /*
+     题号557
 * 反转字符串 涉及的知识点
 * String.split
 * String.match
@@ -37,5 +38,3 @@ export const revertByWorldThree = (str) => {
         return i.split('').reverse().join('')
     }).join(' ');
 };
-
-
