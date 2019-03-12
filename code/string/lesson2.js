@@ -12,7 +12,7 @@ export default (str) => {
       return ''
     }
   }
-  // 通过for循环控制程序运行的流程
+  // 通过for循环控制程序运行的流程  考虑的输入的字符串
   for (let i = 0, len = str.length - 1; i < len; i++) {
     let sub = match(str.slice(i))
     if (sub) {
