@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a82db623-1642-4e35-bb04-20b42dac6fb7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/code/array/lesson1.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/array/lesson1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/array_learn/lesson1.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/array_learn/lesson1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/array/lesson1.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/array/lesson1.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/array_learn/lesson1.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/array_learn/lesson1.test.js" afterDir="false" />
-    </list>
+    <list default="true" id="a82db623-1642-4e35-bb04-20b42dac6fb7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -212,16 +207,15 @@
       <workItem from="1550555654781" duration="3241000" />
       <workItem from="1550562223487" duration="904000" />
       <workItem from="1552282658288" duration="10877000" />
-      <workItem from="1552356467703" duration="16535000" />
+      <workItem from="1552356467703" duration="16609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31557000" />
+    <option name="totallyTimeSpent" value="31631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49496403" visible="true" weight="0.13645943" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -231,7 +225,7 @@
       <window_info id="npm" order="2" sideWeight="0.505036" side_tool="true" weight="0.13645943" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33696836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24972737" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24972737" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
