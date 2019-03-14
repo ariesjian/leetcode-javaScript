@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a82db623-1642-4e35-bb04-20b42dac6fb7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/array_learn/lesson1.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/array_learn/lesson1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/array_learn/lesson2.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/array_learn/lesson2.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +16,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lesson1.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lesson1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/array_learn/lesson1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            <state relative-caret-position="734">
+              <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,11 +46,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lesson2.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lesson2.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/array_learn/lesson2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+            <state relative-caret-position="150">
+              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,11 +91,11 @@
         <option value="$PROJECT_DIR$/code/string_learn/lesson2.js" />
         <option value="$PROJECT_DIR$/test/array/lesson1.test.js" />
         <option value="$PROJECT_DIR$/code/array/lesson1.js" />
-        <option value="$PROJECT_DIR$/code/array_learn/lesson2.js" />
         <option value="$PROJECT_DIR$/test/array_learn/lesson1.test.js" />
         <option value="$PROJECT_DIR$/test/array_learn/lesson2.test.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/code/array_learn/lesson1.js" />
+        <option value="$PROJECT_DIR$/code/array_learn/lesson2.js" />
       </list>
     </option>
   </component>
@@ -242,18 +247,18 @@
       <workItem from="1550562223487" duration="904000" />
       <workItem from="1552282658288" duration="10877000" />
       <workItem from="1552356467703" duration="16609000" />
-      <workItem from="1552545225022" duration="10028000" />
+      <workItem from="1552545225022" duration="13119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41659000" />
+    <option name="totallyTimeSpent" value="44750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4924078" visible="true" weight="0.13645943" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4924078" visible="true" weight="0.13645943" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -261,7 +266,7 @@
       <window_info id="npm" order="2" sideWeight="0.50652176" side_tool="true" weight="0.13645943" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.049342107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5169029" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.17775354" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -500,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/array_learn/lesson2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/array/lesson2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -530,8 +528,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/array_learn/lesson1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state relative-caret-position="734">
+          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/array_learn/lesson2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
