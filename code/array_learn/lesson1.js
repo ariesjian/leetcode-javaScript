@@ -19,8 +19,12 @@
 *
 * */
 export const telePhoneCount = (str) => {
+    // 对输入做处理，如果小于1返回空（LeetCode测试用例）
+    if (str.length < 1) return [];
     // 建立映射关系 2-9的数组
     let map = ['', 1, 'abc', 'def', 'ghi', 'jkl', 'mno', 'pqrs', 'tuv', 'wxyz'];
+    // 如果只给了一个按键，直接把按键内容取出来并按单个字符分组就可以了（LeetCode测试用例）
+    if (str.length < 2) return map[str].split('');
     // 将输入的字符变成数组
     let num = str.split('');
     // 通过数字数组循环 将其内容作为指针传递给字符串数组  看是否有值 那么久将数字对应的字符串找到了  并且放到code数组里面
@@ -51,4 +55,32 @@ export const telePhoneCount = (str) => {
         return arr[0] // 函数体需要返回第一个元素  因为这个函数体最后的结果是一个数组  然后数组里面只包含一个数组 如 [[abcd,adce,adce,....]]
     };
     return comb(code)
+};
+// 第二种方法
+export const letterCombinations = digits => {
+    if (digits.length < 1) return []
+    const map = {
+        0: [],
+        1: [],
+        2: ['a', 'b', 'c'],
+        3: ['d', 'e', 'f'],
+        4: ['g', 'h', 'i'],
+        5: ['j', 'k', 'l'],
+        6: ['m', 'n', 'o'],
+        7: ['p', 'q', 'r', 's'],
+        8: ['t', 'u', 'v'],
+        9: ['w', 'x', 'y', 'z']
+    };
+    if (digits.length < 2) return map[digits];
+    const arr = digits.split('').map(v => map[v]);
+    let resArr = [];
+    arr.reduce((a, b) => {
+        a.forEach(aa => {
+            b.forEach(bb => {
+                resArr.push(`${aa}${bb}`);
+            });
+        });
+        return resArr;
+    });
+    return resArr.filter(v => v.length === digits.length);
 };

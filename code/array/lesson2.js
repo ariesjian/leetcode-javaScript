@@ -1,30 +1,32 @@
 export default (arr) => {
-  // 对这副牌进行排序，升序、降序都可以
-  arr.sort((a, b) => a - b)
-  let min = Number.MAX_SAFE_INTEGER
-  let dst = []
-  let result = true
-  for (let i = 0, len = arr.length, tmp = []; i < len; i++) {
-    tmp.push(arr[i])
-    for (let j = i + 1; j < len - 1; j++) {
-      if (arr[i] === arr[j]) {
-        tmp.push(arr[j])
-      } else {
-        if (min > tmp.length) {
-          min = tmp.length
-        }
-        dst.push([].concat(tmp))
-        tmp.length = 0
-        i = j
-        break
-      }
+  // 存储每张卡牌的总数
+  // 修改排序的方式修改为直接统计每个相同字符的数量，思路不变（LeetCode测试用例）
+  let group = []
+  let tmp = {}
+  arr.forEach(item => {
+    tmp[item] = tmp[item] ? tmp[item] + 1 : 1
+  })
+  for (let v of Object.values(tmp)) {
+    group.push(v)
+  }
+  // 此时group已经存放的是每张牌的总数了（数组只遍历一遍，避免了排序和正则的耗时）
+  // 求两个数的最大公约数
+  let gcd = (a, b) => {
+    if (b === 0) {
+      return a
+    } else {
+      return gcd(b, a % b)
     }
   }
-  dst.every(item => {
-    if (item.length % min !== 0) {
-      result = false
+  while (group.length > 1) {
+    let a = group.shift()
+    let b = group.shift()
+    let v = gcd(a, b)
+    if (v === 1) {
       return false
+    } else {
+      group.unshift(v)
     }
-  })
-  return result
+  }
+  return group.length ? group[0] > 1 : false
 }

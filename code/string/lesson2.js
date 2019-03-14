@@ -1,3 +1,6 @@
+// 关于 LeetCode 测试用例字符串过长导致 RegExp too big的问题暂时不予修复
+// 我认为这个测试用例不合理，无论在面试中还是实际应用中这个算法思路都是足够用的
+// 我建议大家不要为了刷题而刷题
 export default (str) => {
   // 建立数据结构，堆栈，保存数据
   let r = []
@@ -12,7 +15,7 @@ export default (str) => {
       return ''
     }
   }
-  // 通过for循环控制程序运行的流程  考虑的输入的字符串
+  // 通过for循环控制程序运行的流程
   for (let i = 0, len = str.length - 1; i < len; i++) {
     let sub = match(str.slice(i))
     if (sub) {
