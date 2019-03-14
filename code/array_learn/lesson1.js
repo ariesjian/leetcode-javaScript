@@ -30,24 +30,25 @@ export const telePhoneCount = (str) => {
             code.push(map[item])
         }
     });
+    // 逻辑部分
     let comb = (arr) => {
         // 临时变量用来保存前两个组合的结果
         let tmp = [];
         // 最外层的循环是遍历第一个元素，里层的循环是遍历第二个元素
         for (let i = 0; i < arr[0].length; i++) {
             for (let j = 0; j < arr[1].length; j++) {
-                tmp.push(`${arr[0][i]}${arr[1][j]}`)
+                tmp.push(`${arr[0][i]}${arr[1][j]}`)// ${arr[0][i]}保存的是最外层取出来的第i个元素，${arr[1][j]}保存第一个元素的第j个字符
             }
         }
-        // 前两项匹配之后就要删除前两项
+        // 前两项匹配之后就要删除前两项 并且用临时变量去替换掉之前的两个元素  并且再使用临时变量和后面的组合
         arr.splice(0, 2, tmp);
-        if (arr.length > 1) {
+        if (arr.length > 1) { // 只要两个的时候才可以两两组合  如果只有一个的话 就返回临时组合
             // 递归
             comb(arr)
         } else {
             return tmp
         }
-        return arr[0]
+        return arr[0] // 函数体需要返回第一个元素  因为这个函数体最后的结果是一个数组  然后数组里面只包含一个数组 如 [[abcd,adce,adce,....]]
     };
     return comb(code)
 };
