@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a82db623-1642-4e35-bb04-20b42dac6fb7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a82db623-1642-4e35-bb04-20b42dac6fb7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -86,8 +84,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="357" />
-    <option name="y" value="144" />
+    <option name="x" value="-319" />
+    <option name="y" value="72" />
     <option name="width" value="1921" />
     <option name="height" value="1051" />
   </component>
@@ -140,7 +138,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javaScript数据结构源码/leetcode" />
+    <property name="last_opened_file_path" value="D:/quzou/quzou_admin_umi" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="D:\myCodes\leetcode\leetcode\node_modules\eslint" />
@@ -200,12 +198,12 @@
       <workItem from="1552282658288" duration="10877000" />
       <workItem from="1552356467703" duration="16609000" />
       <workItem from="1552545225022" duration="13254000" />
-      <workItem from="1552613440686" duration="1499000" />
+      <workItem from="1552613440686" duration="1533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46384000" />
+    <option name="totallyTimeSpent" value="46418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
