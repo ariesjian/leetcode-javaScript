@@ -7,5 +7,5 @@ test('cardCountTwo:[1,1,1,2,2,2,3,3]', () => {
     expect(cardCountTwo([1, 1, 1, 2, 2, 2, 3, 3])).toBe(false)
 });
 test('cardCountTwo:[0,0,0,1,1,1,2,2,2]', () => {
-    expect(cardCountTwo([0, 0, 0, 1, 1, 1, 2, 2, 2])).toBe(true)
+    expect(cardCountTwo([0, 0, 0, 1, 1, 1, 2, 2, 2])).toBe(false)
 });
