@@ -1,22 +1,19 @@
 /*
 *  题号11  盛最多水的容器
 * */
-const middleFun = (nums1, nums2) => {
-    const arr3 = [...nums1, ...nums2];// 合并数组
-    const arr4 = arr3.sort((a, b) => {
-        return a - b;
-    });// 数组排序
-    console.log(arr4, '000000------------', arr4.length);
-    let m = 0;
-    if (arr4.length <= 1) {
-        m = arr4[0]
-    } else {
-        if ((arr4.length) % 2 === 0) { // 偶数个
-            const middleIndex = ((arr4.length) / 2);
-            m = (arr4[middleIndex] + arr4[middleIndex - 1]) / 2;
-        } else { // 奇数个
-            m = arr4[Math.floor((arr4.length) / 2)];
-        }
-    }
-    return m
+export const maxArea = function (h) {
+    // 求所有积的最大值  两层数组循环
+    // let arrJi=[];// 两层数组的成绩
+    // for(let i=0;i<arr.length-1;i++){
+    //     for(let j=i+1;j<arr.length;j++){
+    //         arr.slice(i+1);
+    //         const min=arr[i]>=arr[j]?arr[j]:arr[i]; // 找到两个纵坐标的最小值
+    //         const ji=(j-i)*min;
+    //         if(arrJi.indexOf(ji)===-1){
+    //              arrJi.push(ji);
+    //         }
+    //     }
+    // }
+    // return Math.max(...arrJi)
+    return Math.max(...h.map((n, i) => Math.max(...h.slice(i + 1).map((m, j) => (j + 1) * Math.min(m, n)))));
 };
