@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a82db623-1642-4e35-bb04-20b42dac6fb7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/code/array_learn/lesson3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/array_learn/lesson2.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/array_learn/lesson2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/array_learn/lesson2.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/array_learn/lesson2.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/array_learn/lesson1.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/array_learn/lesson1.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6577805">
+    <splitter split-orientation="horizontal" split-proportion="0.6063236">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="lesson1.js" pinned="false" current-in-tab="false">
@@ -57,8 +55,8 @@
           <file leaf-file-name="lesson2.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/code/array/lesson2.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="690">
-                  <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+                <state relative-caret-position="310">
+                  <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -66,8 +64,11 @@
           <file leaf-file-name="lesson2.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/code/array_learn/lesson2.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="38" column="81" selection-end-line="70" selection-end-column="2" />
+                <state relative-caret-position="1620">
+                  <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -85,13 +86,50 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="lesson3.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="lesson3.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/code/array/lesson3.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="690">
-                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+                <state relative-caret-position="450">
+                  <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
                 </state>
               </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="lesson1.test.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/array/lesson1.test.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="6" column="32" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="lesson1.test.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/array_learn/lesson1.test.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="550">
+                  <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="lesson2.test.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/array/lesson2.test.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="2" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="lesson3.test.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/array/lesson3.test.js">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="lesson4.test.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/array/lesson4.test.js">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
@@ -128,7 +166,6 @@
         <option value="$PROJECT_DIR$/code/string_learn/lesson2.js" />
         <option value="$PROJECT_DIR$/test/array/lesson1.test.js" />
         <option value="$PROJECT_DIR$/code/array/lesson1.js" />
-        <option value="$PROJECT_DIR$/test/array_learn/lesson1.test.js" />
         <option value="$PROJECT_DIR$/code/array_learn/lesson1.js" />
         <option value="$PROJECT_DIR$/code/string_learn/lesson1.js" />
         <option value="$PROJECT_DIR$/code/string_learn/lesson3.js" />
@@ -139,6 +176,7 @@
         <option value="$PROJECT_DIR$/test/array_learn/lesson2.test.js" />
         <option value="$PROJECT_DIR$/code/array_learn/lesson3.js" />
         <option value="$PROJECT_DIR$/code/array_learn/lesson2.js" />
+        <option value="$PROJECT_DIR$/test/array_learn/lesson1.test.js" />
       </list>
     </option>
   </component>
@@ -284,12 +322,12 @@
       <workItem from="1552639905834" duration="3031000" />
       <workItem from="1552644092297" duration="21563000" />
       <workItem from="1552958775107" duration="2335000" />
-      <workItem from="1552982481251" duration="2021000" />
+      <workItem from="1552982481251" duration="2602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75368000" />
+    <option name="totallyTimeSpent" value="75949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -327,23 +365,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code/string_learn/lesson1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/array_learn/lesson5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/array_learn/lesson1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -553,13 +574,6 @@
         <state relative-caret-position="-270" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/array_learn/lesson1.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/string/lesson1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -615,13 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/array/lesson1.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/array_learn/lesson6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -643,13 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/array/lesson2.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -682,22 +682,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/array/lesson2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/array/lesson3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="310">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/array_learn/lesson2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="38" column="81" selection-end-line="70" selection-end-column="2" />
+        <state relative-caret-position="1620">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/array/lesson3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/array/lesson2.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/array/lesson3.test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/array/lesson4.test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/array/lesson1.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/array_learn/lesson1.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>

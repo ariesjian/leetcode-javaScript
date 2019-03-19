@@ -50,7 +50,6 @@ export const cardCount = (arr) => {
 *  下面这个方法是有问题的  无法在leetcode上面提交
 * */
 
-
 export const cardCountTwo = (arr) => {
     // 修改排序的方式修改为直接统计每个相同字符的数量，思路不变（LeetCode测试用例）
     let Group = []; // 存储每张卡牌的次数

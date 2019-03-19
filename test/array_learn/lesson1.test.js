@@ -29,3 +29,7 @@ test('letterCombinations:234', () => {
         'cfg', 'cfh', 'cfi'
     ])
 });
+/*
+*  toBe 针对的是字符串  数字   Boolean值等原语
+*  toEqual 是toBe之外的内容比较
+* */
