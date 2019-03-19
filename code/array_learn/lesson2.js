@@ -25,17 +25,18 @@ export const cardCount = (arr) => {
             return gcd(b, a % b)
         }
     };
+    // 两两求解最大公约数
     while (countGroup.length > 1) {
-        let a = countGroup.shift();
-        let b = countGroup.shift();
+        let a = countGroup.shift();// 拿到第一个元素  拿到之后并且删除掉
+        let b = countGroup.shift(); // 拿到第二个元素
         let v = gcd(a, b);
-        if (v === 1) {
+        if (v === 1) { // 没有最大公约数
             return false
-        } else {
-            countGroup.unshift(v)
+        } else { // 有最大公约数
+            countGroup.unshift(v)//  需要将最大公约数放到数组里面与下面的元素进行比较
         }
     }
-    return countGroup.length ? countGroup[0] > 1 : false
+    return countGroup.length ? countGroup[0] > 1 : false// 有值 且值不是1 的时候是有组大公约数的
 };
 
 /*
@@ -45,7 +46,11 @@ export const cardCount = (arr) => {
 *  shift()：删除原数组第一项，并返回删除元素的值；如果数组为空则返回undefined 。
 *  unshift:将参数添加到原数组开头，并返回数组的长度 。
 *  这组方法和上面的push()和pop()方法正好对应，一个是操作数组的开头，一个是操作数组的结尾
+*
+*  下面这个方法是有问题的  无法在leetcode上面提交
 * */
+
+
 export const cardCountTwo = (arr) => {
     // 修改排序的方式修改为直接统计每个相同字符的数量，思路不变（LeetCode测试用例）
     let Group = []; // 存储每张卡牌的次数

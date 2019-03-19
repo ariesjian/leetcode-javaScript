@@ -1,4 +1,4 @@
-import {cardCount, cardCountTwo} from '../../code/array_learn/lesson2';
+import { cardCount, cardCountTwo } from '../../code/array_learn/lesson2';
 
 test('cardCount:[2,2,3,3]', () => {
     expect(cardCount([2, 2, 3, 3])).toBe(true);
