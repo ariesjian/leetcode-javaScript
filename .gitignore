@@ -5,3 +5,6 @@ yarn.lock
 package-lock.json
 *bak
 .vscode
+idea
+.idea
+.idea/
