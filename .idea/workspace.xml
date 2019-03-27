@@ -31,8 +31,8 @@
           <file leaf-file-name="lesson2.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/code/regexp_learn/lesson2.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="507">
-                  <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+                <state relative-caret-position="327">
+                  <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -125,7 +125,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-34" />
     <option name="y" value="161" />
     <option name="width" value="1936" />
@@ -255,16 +255,15 @@
       <workItem from="1553224237219" duration="3600000" />
       <workItem from="1553235595247" duration="80000" />
       <workItem from="1553238047978" duration="6454000" />
-      <workItem from="1553651463480" duration="784000" />
+      <workItem from="1553651463480" duration="1048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106964000" />
+    <option name="totallyTimeSpent" value="107228000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-34" y="161" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48832685" visible="true" weight="0.15015806" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -274,7 +273,7 @@
       <window_info id="npm" order="2" sideWeight="0.51167315" side_tool="true" weight="0.15015806" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.49945474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30098146" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30098146" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -643,8 +642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/regexp_learn/lesson2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="327">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
