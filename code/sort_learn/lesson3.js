@@ -1,3 +1,7 @@
+/*
+* 最大间距
+* 题号 164
+* */
 // export default (arr) => {
 //   // 如果数组长度小于2返回0
 //   if (arr.length < 2) {
@@ -40,3 +44,17 @@ export default (arr) => {
   }
   return Math.max(max, arr[1] - arr[0])
 }
+
+// 第二种方法
+const maximumGap = (nums) => {
+    if (nums.length < 2) {
+        return 0
+    }
+    nums.sort((a, b) => a - b)
+    let newArr = [];
+    for (let i = 0; i < nums.length - 1; i++) {
+        const tmp = Math.abs(nums[i] - nums[i + 1]);
+        newArr.push(tmp)
+    }
+    return newArr.sort((a, b) => b - a)[0]
+};
