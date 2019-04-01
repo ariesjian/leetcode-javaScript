@@ -1,6 +1,7 @@
-// export default (arr, k) => {
-//   return arr.sort((a, b) => b - a)[k - 1]
-// }
+/*
+*  题号 215
+*
+* */
 
 export default (arr, k) => {
   let len = arr.length - 1
@@ -16,3 +17,9 @@ export default (arr, k) => {
   // arr[len+1-k]
   return arr[len - (k - 1)]
 }
+
+// 第二种方法
+const findKthLargest = (nums, k) => {
+    nums.sort((a, b) => b - a);// 降序排列
+    return nums[k - 1]
+};
