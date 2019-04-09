@@ -7,21 +7,21 @@
 *   可以使用栈 将栈顶的两个求交集 然后再放到栈里面 然后再依次类推找到最后面的矩形交集
 * */
 export default (arr) => {
-    let result = [];
-    let reg = /1{2,}/g;
+    let result = []; // 保存结果
+    let reg = /1{2,}/g; // 至少两个1及其以上
     // 把二位数组重新表达，把相邻的1提取出来（起始点+截止点）
     arr = arr.map(item => {
-        let str = item.join('');
-        let r = reg.exec(str);
+        let str = item.join('');// 将这一项的数组变成字符串
+        let r = reg.exec(str); // 使用正则表达式来提取 exec正则表达式匹配后拿到值和索引
         let rs = [];
         while (r) {
-            rs.push([r.index, r.index + r[0].length - 1]);
-            r = reg.exec(str)
+            rs.push([r.index, r.index + r[0].length - 1]);// 保留匹配到的起点和截止点
+            r = reg.exec(str);// 然后进行下一次匹配
         }
         return rs
     })
-    // 通过递归计算相邻的矩阵
-    let maxRect = (arr, result, n = 1) => {
+    // 通过递归计算相邻的矩阵 弹出算结果 再放进去 这是一个递归的过程
+    let maxRect = (arr, result, n = 1) => { // arr 二位矩阵 ，result上次的结果 n处理了几次也就是第几行
         // 弹出第一行
         let top = arr.pop();
         // 弹出第二行;
