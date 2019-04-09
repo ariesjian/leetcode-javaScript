@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a82db623-1642-4e35-bb04-20b42dac6fb7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/code/recur/lesson2-fix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/recur_learn/lesson2-fix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/stack_learn/lesson1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/stack_learn/lesson2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/recur_learn/lesson2.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/recur_learn/lesson2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/stack/lesson1.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/stack/lesson1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/stack/lesson2.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/stack/lesson2.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="lesson2.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code/recur_learn/lesson2.js">
+        <entry file="file://$PROJECT_DIR$/code/stack_learn/lesson2.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -87,6 +88,10 @@
         <option value="$PROJECT_DIR$/code/recur_learn/lesson1.js" />
         <option value="$PROJECT_DIR$/code/recur/lesson2-fix.js" />
         <option value="$PROJECT_DIR$/code/recur_learn/lesson2.js" />
+        <option value="$PROJECT_DIR$/code/stack/lesson1.js" />
+        <option value="$PROJECT_DIR$/code/stack_learn/lesson1.js" />
+        <option value="$PROJECT_DIR$/code/stack/lesson2.js" />
+        <option value="$PROJECT_DIR$/code/stack_learn/lesson2.js" />
       </list>
     </option>
   </component>
@@ -107,8 +112,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="24" />
-    <option name="y" value="293" />
+    <option name="x" value="-26" />
+    <option name="y" value="400" />
     <option name="width" value="1940" />
     <option name="height" value="1017" />
   </component>
@@ -134,13 +139,13 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="recur" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="recur_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="stack_learn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -166,8 +171,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\myCodes\leetcode\leetcode\code\recur_learn" />
       <recent name="D:\myCodes\leetcode\leetcode\code" />
+      <recent name="D:\myCodes\leetcode\leetcode\code\recur_learn" />
       <recent name="D:\myCodes\leetcode\leetcode\test" />
       <recent name="D:\myCodes\leetcode\leetcode\code\sort_learn" />
       <recent name="D:\myCodes\leetcode\leetcode\code\regexp_learn" />
@@ -227,15 +232,15 @@
       <workItem from="1553651463480" duration="8454000" />
       <workItem from="1553823101970" duration="9246000" />
       <workItem from="1554119396179" duration="8910000" />
-      <workItem from="1554777185445" duration="10100000" />
+      <workItem from="1554777185445" duration="12887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142890000" />
+    <option name="totallyTimeSpent" value="145677000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="293" width="1940" height="1017" extended-state="0" />
+    <frame x="-74" y="703" width="1940" height="1017" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48832685" visible="true" weight="0.14984228" />
@@ -246,7 +251,7 @@
       <window_info id="npm" order="2" sideWeight="0.51167315" side_tool="true" weight="0.15015806" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.49945474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.10933941" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.13553531" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -266,32 +271,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/string_learn/lesson1.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="61" selection-start-column="61" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/sum.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/btree/lesson1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/string/lesson1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/array/lesson1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -619,8 +602,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/recur_learn/lesson2.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/stack/lesson1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#24#620#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/stack_learn/lesson1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/stack/lesson2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/stack_learn/lesson2.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
