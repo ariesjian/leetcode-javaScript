@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a82db623-1642-4e35-bb04-20b42dac6fb7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/code/sort_learn/lesson3.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/sort_learn/lesson3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/sort_learn/lesson4.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/sort_learn/lesson4.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +17,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lesson3.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lesson1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/sort/lesson1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lesson3.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/sort_learn/lesson3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+            <state relative-caret-position="441">
+              <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lesson4.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/sort_learn/lesson4.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -82,6 +104,7 @@
         <option value="$PROJECT_DIR$/code/sort_learn/lesson1.js" />
         <option value="$PROJECT_DIR$/code/sort_learn/lesson2.js" />
         <option value="$PROJECT_DIR$/code/sort_learn/lesson3.js" />
+        <option value="$PROJECT_DIR$/code/sort_learn/lesson4.js" />
       </list>
     </option>
   </component>
@@ -102,10 +125,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="30" />
-    <option name="y" value="450" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="746" />
+    <option name="y" value="48" />
+    <option name="width" value="1940" />
+    <option name="height" value="1017" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -233,18 +256,18 @@
       <workItem from="1553238047978" duration="6454000" />
       <workItem from="1553651463480" duration="8454000" />
       <workItem from="1553823101970" duration="9246000" />
-      <workItem from="1554119396179" duration="2349000" />
+      <workItem from="1554119396179" duration="8910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126229000" />
+    <option name="totallyTimeSpent" value="132790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48832685" visible="true" weight="0.15015806" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48832685" visible="true" weight="0.15015806" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -252,7 +275,7 @@
       <window_info id="npm" order="2" sideWeight="0.51167315" side_tool="true" weight="0.15015806" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.49945474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.14285715" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.1395856" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -276,13 +299,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code/string/lesson2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/环境安装.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -597,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/sort/lesson1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/sort_learn/lesson1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -626,8 +635,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/sort_learn/lesson3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        <state relative-caret-position="441">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/sort/lesson1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/sort_learn/lesson4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
