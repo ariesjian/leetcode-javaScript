@@ -20,10 +20,11 @@ export default (arr) => {
 const chooseSort = (arr) => {
     // min 永远存放的是最小值
     for (let i = 0, min; i < arr.length; i++) {
+        min = arr[i];
         for (let j = i + 1; j < arr.length; j++) {
             if (arr[j] < min) {
                 let t = min;
-                min = arr[j]; // 最小值给min
+                min = arr[j];
                 arr[j] = t;
             }
         }
