@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a82db623-1642-4e35-bb04-20b42dac6fb7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/code/sort_learn/lesson1-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/sort_learn/lesson1-2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/sort_learn/lesson4.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/sort_learn/lesson4.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -41,8 +40,8 @@
       <file leaf-file-name="lesson4.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/sort_learn/lesson4.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+            <state relative-caret-position="425">
+              <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -314,15 +313,16 @@
       <workItem from="1553651463480" duration="8454000" />
       <workItem from="1553823101970" duration="9246000" />
       <workItem from="1554119396179" duration="8910000" />
-      <workItem from="1554777185445" duration="3203000" />
+      <workItem from="1554777185445" duration="3329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135993000" />
+    <option name="totallyTimeSpent" value="136119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48832685" visible="true" weight="0.15015806" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -699,8 +699,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/sort_learn/lesson4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+        <state relative-caret-position="425">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

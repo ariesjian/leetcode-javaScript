@@ -10,7 +10,7 @@
 *
 * */
 
-// 第一种方法
+// 第一种方法 传统的方法 筛选后 排序 然后再进行遍历 比较差值
 const funOne = (arr) => {
     // 过滤掉非正整数
     arr = arr.filter(item => item > 0);
@@ -35,9 +35,9 @@ const funOne = (arr) => {
         return 1
     }
 };
-// 这个是优化性能  不需要真正的排序
+// 这个是优化性能  不需要真正的排序 使用的是选择排序 最复杂的情况是和上面的方法一样  最好的情况就是遍历了一次
 export default (arr) => {
-    arr = arr.filter(item => item > 0)
+    arr = arr.filter(item => item > 0);
     // 实现选择排序，先拿到最小值，如果第一个元素不是1直接返回1，如果是1，就要比相邻元素差值
     for (let i = 0, len = arr.length, min; i < len; i++) {
         min = arr[i];// 找到最小值
