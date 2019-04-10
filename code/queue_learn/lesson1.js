@@ -12,7 +12,7 @@
 * isFull(): 检查循环队列是否已满。
 * */
 export default class MyCircularQueue {
-    constructor(k) {
+    constructor (k) {
         // 用来保存数据长度为k的数据结构
         this.list = Array(k);
         // 队首指针
@@ -23,7 +23,7 @@ export default class MyCircularQueue {
         this.max = k
     }
 
-    enQueue(num) {
+    enQueue (num) {
         if (this.isFull()) {
             return false
         } else {
@@ -33,26 +33,26 @@ export default class MyCircularQueue {
         }
     }
 
-    deQueue() {
+    deQueue () {
         let v = this.list[this.front];
         this.list[this.front] = '';
         this.front = (this.front + 1) % this.max;
         return v
     }
 
-    isEmpty() {
+    isEmpty () {
         return this.front === this.rear && !this.list[this.front]
     }
 
-    isFull() {
+    isFull () {
         return this.front === this.rear && !!this.list[this.front]
     }
 
-    Front() {
+    Front () {
         return this.list[this.front]
     }
 
-    Rear() {
+    Rear () {
         let rear = this.rear - 1;
         return this.list[rear < 0 ? this.max - 1 : rear]
     }
