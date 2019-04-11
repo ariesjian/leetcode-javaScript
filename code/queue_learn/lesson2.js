@@ -1,3 +1,7 @@
+/*
+* 题号：621  任务调度器
+*
+* */
 export default (tasks, n) => {
   // 存储CPU执行的任务
   let q = []
