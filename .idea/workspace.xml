@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a82db623-1642-4e35-bb04-20b42dac6fb7" name="Default" comment="" />
+    <list default="true" id="a82db623-1642-4e35-bb04-20b42dac6fb7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/code/queue_learn/lesson2.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/queue_learn/lesson2.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -50,8 +52,11 @@
       <file leaf-file-name="lesson2.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/queue_learn/lesson2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+            <state relative-caret-position="156">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,6 +144,7 @@
         <option value="$PROJECT_DIR$/code/stack_learn/lesson1.js" />
         <option value="$PROJECT_DIR$/code/queue_learn/lesson1.js" />
         <option value="$PROJECT_DIR$/code/stack_learn/lesson2.js" />
+        <option value="$PROJECT_DIR$/code/queue_learn/lesson2.js" />
       </list>
     </option>
   </component>
@@ -293,16 +299,15 @@
       <workItem from="1554119396179" duration="8910000" />
       <workItem from="1554777185445" duration="20027000" />
       <workItem from="1554859026745" duration="3650000" />
-      <workItem from="1554953079689" duration="6613000" />
+      <workItem from="1554953079689" duration="7023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163080000" />
+    <option name="totallyTimeSpent" value="163490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48655915" visible="true" weight="0.15015806" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -312,7 +317,7 @@
       <window_info id="npm" order="2" sideWeight="0.51344085" side_tool="true" weight="0.15015806" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.46455833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2704471" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.6521265" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -677,8 +682,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/queue_learn/lesson2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        <state relative-caret-position="156">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
