@@ -5,7 +5,7 @@
 export default (tasks, n) => {
   // 存储CPU执行的任务
   let q = [];
-  // 给定任务列表的长度
+  // 给定任务列表的长度1
   let len = tasks.length;
   // 按照相同任务重复次数最多的降序排列
   tasks = tasks.sort().join('').match(/(\w)\1+|\w/g).sort((a, b) => b.length - a.length).join('').split('');
